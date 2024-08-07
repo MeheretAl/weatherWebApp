@@ -1,10 +1,35 @@
-.container {
+body {
     margin: 0;
-    background-color: cadetblue;
 }
 
-.weatherCard {
+.container {
+    height: 100vh;
+    width: 60%;
+    margin: 0 auto;
+}
 
+.locationFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ccc;
+    padding: 10px;
+    border: 1px solid #999;
+    margin-top: 10%;
+}
 
-    margin: 0;
+.item {
+    display: flex;
+    background-color: #ccc;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid #999;
+}
+
+.item:last-child {
+    margin-bottom: 0;
+}
+
+.addData {
+    margin: 20px;
 }
